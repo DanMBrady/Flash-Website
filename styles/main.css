@@ -3,8 +3,15 @@ body{
 }
 
 .headerRed{
-    background:#f0342a;
+    background:#cf1c15;
     height:10%;
     width:100%;
     margin: 0px;
+    display:flex;
+    align-items: center;
+}
+
+.logo{
+    height:50px;
+    padding-left: 40px;
 }
