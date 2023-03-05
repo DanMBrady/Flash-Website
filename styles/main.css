@@ -9,9 +9,42 @@ body{
     margin: 0px;
     display:flex;
     align-items: center;
+    
 }
 
 .logo{
     height:50px;
     padding-left: 40px;
+}
+.headElements{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding-left: 150px;
+}
+
+.head{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-left:40px;
+    padding-right: 40px;
+    font-size: 20px;
+    border:1px black solid;
+}
+
+
+.login{
+    height:100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+    border:1px black solid;
+    padding-left:40px;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-bottom: 2px;
 }
