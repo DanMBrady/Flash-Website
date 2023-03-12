@@ -60,3 +60,59 @@ background:#bc0d07;
 #game{
     background: #cf1c15;
 }
+
+
+.main{
+    background:#fc3b35;
+    height:700px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center ;
+
+}
+
+.actualGame{
+    background: white;
+    height:600px;
+    width:1000px;
+    border:2px solid black;
+
+}
+
+.gameCharacter{
+    height: 200px;
+    position: relative;
+    top:400px;
+}
+.animate{
+    animation: jump 500ms ;
+
+}
+@keyframes jump{
+    0%{top: 400px;}
+    30%{top: 200px;}
+    70%{top: 200px;}
+    100%{top: 400px;}
+}
+
+
+.gameEnemy{
+    height:50px;
+    position: relative;
+    top: 400px;
+    left: 700px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+0%{left:700px;}
+100%{left:-190px;}
+}
+
+.jump{
+    height:200px;
+    width:200px;
+    background:#cf1c15;
+    font-weight: bold;
+    font-size: larger;
+}
